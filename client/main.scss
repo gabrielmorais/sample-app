@@ -1,0 +1,31 @@
+nav{
+    background: #443d6b;
+    padding: 0 20px;
+    &.flow-nav{
+        overflow: hidden;
+        padding:0;
+        >div{
+            padding:0 !important;
+            margin:0;
+        }
+        a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            font-size: 150%;
+            &.active{
+                background: #635c8c;;
+            }
+        }
+    }
+}
+
+.map-container {
+  width: 800px;
+  max-width: 100%;
+  height: 500px;
+}
+
+footer.page-footer{
+    background: #443d6b;
+}

@@ -1,0 +1,13 @@
+<template name="tasklist">
+      <div class="container">
+      <form class="new-task">
+        <input type="text" name="text" placeholder="Type to add new tasks" />
+      </form>
+      <ul>
+        {{#each tasks}}
+          {{> task}}
+        {{/each}}
+      </ul>
+  </div>
+</template>
+
