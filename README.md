@@ -1,4 +1,4 @@
-# sample-app
+# Sample App
 Meteor Sample App
 
 meteor-base@1.0.4             # Packages every Meteor app needs to have
@@ -38,9 +38,10 @@ fortawesome:fontawesome
 iron:router
 
 ---
-Done:
+# Already done:
 
 meteor add dburles:google-maps mdg:geolocation
+
 reactive geolocation
 
 
