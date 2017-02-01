@@ -36,3 +36,11 @@ materialize:materialize
 fortawesome:fontawesome
 
 iron:router
+
+---
+Done:
+
+meteor add dburles:google-maps mdg:geolocation
+reactive geolocation
+
+
